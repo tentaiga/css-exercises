@@ -1,7 +1,17 @@
+
+/*O corpo inteiro do texto terá esse background 
+e fonte */
+
+
 body {
   background: #eee;
   font-family: sans-serif;
 }
+
+/* card é a classe da div que engloba h1, content e
+button-contaoner, button
+  foi alterado a margin e o padding
+*/
 
 .card {
   width: 400px;
@@ -17,6 +27,8 @@ body {
   padding: 8px;
 }
 
+/* aqui o padding da esquerda e direita ficam 8px e 
+margem em cima nao tem valor e em baixo sao 16*/
 .content {
   background: #e3f4ff;
   padding: 16px 8px;
@@ -28,7 +40,9 @@ body {
   text-align: center;
   padding: 8px;
 }
-
+/* para ficar na linha abaixo, colocamos display block
+e no padding a parte de cima e de baixo ficaram 8px e
+a esquerda e direita 24px */
 button {
   background: white;
   border: 1px solid #eee;
